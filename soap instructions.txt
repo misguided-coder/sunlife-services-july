@@ -1,0 +1,41 @@
+http://wsf.cdyne.com/WeatherWS/Weather.asmx?WSDL
+http://www.dneonline.com/calculator.asmx?WSDL
+
+JAX-WS Client Types
+
+1) Static Proxy Based Client
+	wsimport -keep -d C:/hello-client -p com.example http://www.dneonline.com/calculator.asmx?WSDL
+
+	
+2) DII
+3) Dispatch
+
+WSDL Details
+
+	Technical Details (Concrete section)
+		types
+			simple type
+			complex type
+		message
+			message1 name='xyz'
+			message2
+			message3
+			message4
+			message5
+
+		porttype
+			operation
+				in message
+				in message
+				in message
+				out message
+				fault message
+				fault message
+
+			operation
+			operation
+			operation
+
+	Infra Details (Abstract section)
+		binding
+		service			
